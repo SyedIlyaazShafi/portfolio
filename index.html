@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed | UX Designer Portfolio</title>
+
+  <style>
+    /* ===== RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", system-ui, sans-serif;
+    }
+
+    body {
+      background-color: #E7EFFA;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 80px;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      background: #1E40AF;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color:#ffffff;
+    }
+
+    nav a {
+      margin-left: 24px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 100px 80px;
+      background: linear-gradient(135deg, #f5f7ff, #ffffff);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 640px;
+      color: #555;
+    }
+
+    /* ===== OVERVIEW ===== */
+    .overview {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      padding: 60px 80px;
+    }
+
+    .card {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .card h4 {
+      margin-bottom: 8px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .card p {
+      font-weight: 600;
+    }
+
+    /* ===== CONTENT SECTIONS ===== */
+    section.content {
+      padding: 60px 80px;
+      max-width: 900px;
+    }
+
+    section.content h2 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    section.content p {
+      color: #555;
+      font-size: 17px;
+    }
+
+    .highlight {
+      background: #f8f9ff;
+    }
+
+    /* ===== PROCESS ===== */
+    .process {
+      list-style: none;
+      margin-top: 16px;
+    }
+
+    .process li {
+      padding: 10px 0;
+      font-weight: 500;
+    }
+
+    /* ===== CTA ===== */
+    .cta {
+      padding: 80px;
+      text-align: center;
+      background: #111;
+      color: #fff;
+    }
+
+    .cta h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .cta p {
+      color: #ccc;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      padding: 32px;
+      text-align: center;
+      color: #777;
+      border-top: 1px solid #eee;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      header {
+        padding: 20px;
+      }
+
+      .hero {
+        padding: 60px 20px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .overview {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+      }
+
+      section.content {
+        padding: 40px 20px;
+      }
+
+      .cta {
+        padding: 60px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Ilyaaz's Design</div>
+    <nav>
+      <a href="#">Work</a>
+      <a href="#">About</a>
+      <a href="#">Resume</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>UX Designer crafting meaningful digital experiences</h1>
+    <p>
+      I design user-centered products with strong UX fundamentals,
+      clear problem-solving, and real-world impact.
+    </p>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="overview">
+    <div class="card">
+      <h4>Role</h4>
+      <p>UX Designer</p>
+    </div>
+    <div class="card">
+      <h4>Experience</h4>
+      <p>End-to-End UX</p>
+    </div>
+    <div class="card">
+      <h4>Tools</h4>
+      <p>Figma, FigJam, Framer</p>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="content">
+    <h2>Problem Statement</h2>
+    <p>
+      Users struggle with fragmented healthcare experiences due to lack
+      of personalization, unclear information, and poor usability.
+    </p>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="content highlight">
+    <h2>Solution</h2>
+    <p>
+      Designed an intuitive, personalized experience that guides users
+      through key actions with clarity, trust, and accessibility.
+    </p>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="content">
+    <h2>Design Process</h2>
+    <ul class="process">
+      <li>🔍 User Research & Discovery</li>
+      <li>👤 Personas & Empathy Mapping</li>
+      <li>🧭 Journey Mapping</li>
+      <li>✏️ Wireframing</li>
+      <li>🎨 High-Fidelity UI</li>
+      <li>🧪 Usability Testing</li>
+    </ul>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Let’s build something meaningful</h2>
+    <p>Open to full-time roles, freelance, and collaborations</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Syed | UX Designer
+  </footer>
+
+</body>
+</html>
